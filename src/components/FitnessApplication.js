@@ -8,6 +8,8 @@ import {
   questions, 
 } from "../imports.js";
 
+// change the ux/ui 
+
 // add these to the import file
 import ProgressDots from "./ProgressDots.js";
 import IntroSection from "./IntroSection.js";
