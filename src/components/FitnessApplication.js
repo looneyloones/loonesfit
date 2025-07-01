@@ -7,6 +7,8 @@ import {
   ConfirmationMessage, 
   questions, 
 } from "../imports.js";
+
+// add these to the import file
 import ProgressDots from "./ProgressDots.js";
 import IntroSection from "./IntroSection.js";
 
