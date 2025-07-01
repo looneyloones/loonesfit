@@ -19,11 +19,12 @@ export default function App() {
         {/* Main Content */}
         <main className="flex flex-col items-center justify-center text-white text-center px-6 py-12 md:py-20 max-w-3xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-10 leading-tight drop-shadow-lg">
-            Which of These Areas Are You Most Interested In?
+            Which of These Areas Are You <span ="red">Most</span> Interested In?
           </h1>
           <Link
             to="/apply"
-            className="bg-white text-black px-8 py-4 rounded-full text-lg md:text-xl font-semibold shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50 transition"
+            // --- MODIFIED CLASSES HERE ---
+            className="bg-white text-black px-12 py-4 rounded-lg text-lg md:text-xl font-semibold shadow-lg hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-50 transition"
             aria-label="Go to Fitness and Mindset Coaching Application"
           >
             Fitness & Mindset Coaching
