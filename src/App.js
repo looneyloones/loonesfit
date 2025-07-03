@@ -19,7 +19,7 @@ export default function App() {
         {/* Main Content */}
         <main className="flex flex-col items-center justify-center text-white text-center px-6 py-12 md:py-20 max-w-3xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-10 leading-tight drop-shadow-lg">
-            Which of These Areas Are You <span ="red">Most</span> Interested In?
+            Which of These Areas Are You <span>Most</span> Interested In?
           </h1>
           <Link
             to="/apply"
